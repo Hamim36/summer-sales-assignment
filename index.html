@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale Assignment</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header class="bg-[#f9f6e2] w-[1850px] h-[700px]">
+    <div class="flex justify-between items-center h-full px-28">
+<div class="text-center"> <p class="mb-8 text-center text-3xl">---SALE FEVER---</p>
+    <h1 class="text-[58px]">Purchase TK 200 or <br>above & get<span class="text-[#e527b2]"> 20% off</span></h1>
+        <p>Use Promo Code <span><button id="promo-btn" class="btn rounded-lg bg-[#e527b2] hover:bg-[#e527b2]">SELL200</button></span></p>
+        </div>
+        <img class="" src="images/Summer 1.png" alt="summer Sale">
+        <div></div>
+    </div>
+    </header>
+    <main>
+<h2 class="text-[48px] pl-40 pt-28"> Kitchenware</h2>
+<div class="flex flex-col lg:flex-row">
+<div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod1.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>K. Accessories</h1>
+          <p class="pt-1">39.00 TK</p>
+        </div>
+      </div>
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod2.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>K. Accessories</h1>
+          <p class="pt-1">25.00 TK</p>
+        </div>
+      </div>
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod3.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Home Cookers</h1>
+          <p class="pt-1">48.00 TK</p>
+        </div>
+      </div>
+      <div>
+          <h1 class="text-2xl font-medium">Have Coupon?</h1>
+          <input id="coupon-input" type="text" placeholder="Coupon code" class="h-11 border-box w-[180px] border-solid border-2 bg-[#FFFFFF] border-b-[#11111126]" >
+          <button id="apply-button" class="btn bg-[#e527b2] hover:bg-[#e527b2] h-6 border-box w-[95px]  border-solid border-2" disabled>Apply</button>
+          <div id="cart" class="w-[280] h-[400] rounded-lg bg-[#FFFFFF] border-b-gray-50 text-2xl mt-3">
+          
+            <ol class="ml-2">
+              
+            </ol>
+          <div class="border-b border-gray-400 w-[280px]"></div>
+          <ul class="ml-2">
+            <li>Total Price: <span id="Total-price">00</span></li>
+            <li>Discount: <span id="Discount">00</span></li>
+            <li>Total: <span id="total">00</span></li>
+          </ul>
+          <div class="border-b border-gray-400 w-[280px]"></div>
+          <button class="btn btn-active btn-secondary content-center ml-[70px] relative mt-[-50px]" disabled>Make Purchase</button>
+        
+        </div>
+
+
+
+
+
+
+
+<!-- ending point -->
+</div>
+</div>
+
+</div>
+<h1 class="text-[48px] pl-40 pt-28"> Furniture</h1>
+<div class="flex flex-col lg:flex-row">
+<div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod7.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Single Relax Chair</h1>
+          <p class="pt-1">185.00 TK</p>
+        </div>
+      </div>
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod8.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Children play</h1>
+          <p class="pt-1">299.00 TK</p>
+        </div>
+      </div>
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod9.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Flexible Sofa</h1>
+          <p class="pt-1">339.00 TK</p>
+        </div>
+      </div>
+</div>
+
+</div>
+<h1 class="text-[48px] pl-40 pt-28"> Sportswear</h1>
+<div class="flex flex-col lg:flex-row">
+<div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod4.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Sports Back Cap</h1>
+          <p class="pt-1">49.00 TK</p>
+        </div>
+      </div>
+    <div class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod5.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Full Jersey Set</h1>
+          <p class="pt-1">63.00 TK</p>
+        </div>
+      </div>
+    <div  class="card w-[342px] bg-base-100 shadow-xl">
+        <figure class="">
+          <img src="images/prod6.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">
+            <div class="flex items-center">
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9733;</span>
+                <span class="text-yellow-500 text-2xl">&#9734;</span>
+              </div>
+          </h2>
+          <h1>Sports cates</h1>
+          <p class="pt-1">159.00 TK</p>
+        </div>
+      </div>
+</div>
+</div>
+    </main>
+    <script src="scripts/calculation.js"></script>
+</body>
+</html>
